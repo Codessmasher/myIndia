@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Rock+3D&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  cursive;
+}
+*::selection{
+    color: rgb(12, 240, 12);
+}
+header{
+    width: 100%;
+    height: 15vh;
+    background: #000;
+    
+}
+.logo{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 32px;
+    
+
+}
+nav{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav a{
+    text-decoration: none;
+    padding: 12px;
+    color: aqua;
+    position: relative;
+    right: 32px;
+}
+nav a:hover{
+    color: rgb(28, 4, 245);
+}
+main{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.6)),url(../images/taj-mahal.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    place-items: center;
+   
+}
+main h1{
+    position: relative;
+    top: 10px;
+    bottom: 1px;
+    margin: 160px;
+}
+
+.f{
+  color: #FF9933
+}
+.s{
+    color: #fff;
+}
+.t{
+  font-size: 50px;
+  color:#138808;
+}
+
+main h2{
+    color: #fff;
+    font-size: 3rem;
+    position: relative;
+    top: -130px;
+    margin: 10px;
+}
+.places::after{
+    color: #00b894;
+    animation: change 10s infinite linear;
+    content: "";
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+@keyframes change {
+    0%{
+        content: "Agra";
+    }
+    10%{
+        content: "Bihar";
+    }
+    20%{
+        content: "Delhi";
+    }
+    30%{
+        content: "Assam";
+    }
+    40%{
+        content: "Darjeeling";
+    }
+    50%{
+        content: "Karnataka";
+    }
+    60%{
+        content: "Shillong";
+    }
+    70%{
+        content: "Jaipur";
+    }
+    80%{
+        content: "Varanasi";
+    }
+    90%{
+        content: "Amritsar";
+    }
+    100%{
+        content: "Goa";
+    }
+
+}
+main button{
+    position: relative;
+    top: -60px;
+    margin: 2px;
+    font-weight: 600;
+}
+
+.buttonClass {
+    font-size:15px;
+    font-family:Arial;
+    width:140px;
+    height:50px;
+    border-width:1px;
+    color:#f80808;
+    border-color:#d6bcd6;
+    font-weight:bold;
+    border-top-left-radius:15px;
+    border-top-right-radius:15px;
+    border-bottom-left-radius:15px;
+    border-bottom-right-radius:15px;
+    box-shadow: 3px 4px 0px 0px #899599;
+    text-shadow: 0px 1px 0px #e1e2ed;
+    background:linear-gradient(#ededed, #bab1ba);
+    cursor: pointer;
+    margin: 10px;
+  }
+  
+  .buttonClass:hover {
+    background: linear-gradient(#070bec, #03f1be);
+  }
+  footer{
+      position: relative;
+      top: 10px;
+      background: rgb(190, 231, 6);
+  }
