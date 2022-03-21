@@ -156,3 +156,9 @@ main button{
 .infinite{
     animation:infinity infinite linear;
 }
+.contact{
+    text-decoration: none;
+    color: #f6fa06;
+    background: #000;
+
+}
