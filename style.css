@@ -165,12 +165,6 @@ main button{
 .heart{
     color: red;
 }
-.home:visited{
-    color: #f80808;
-}
-.about:visited{
-    color: #f80808;
-}
-.contactus:visited{
+.actives.active a{
     color: #f80808;
 }
