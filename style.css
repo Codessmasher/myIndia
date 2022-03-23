@@ -163,12 +163,12 @@ main button{
 
 }
 .heart{color: red;}
-#home:active{
+.home:active{
     color: #f80808;
 }
-#about:active{
+.about:active{
     color: #f80808;
 }
-#contact:active{
+.contact:active{
     color: #f80808;
 }
