@@ -162,13 +162,15 @@ main button{
     background: #000;
 
 }
-.heart{color: red;}
-.home:active{
+.heart{
+    color: red;
+}
+.home:visited{
     color: #f80808;
 }
-.about:active{
+.about:visited{
     color: #f80808;
 }
-.contactus:active{
+.contactus:visited{
     color: #f80808;
 }
