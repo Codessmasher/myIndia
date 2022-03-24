@@ -165,6 +165,6 @@ main button{
 .heart{
     color: red;
 }
-ul li.actives a{
+ul li a.actives{
     color: #f80808;
 }

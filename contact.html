@@ -17,7 +17,7 @@
             <h1 class="animate__ infinite animate__heartBeat">MY BHARAT</h1>
             </div>
             <ul>
-                <li><a href="/myIndia/index.html" class="actives">Home</a></li>  
+                <li><a href="/myIndia/index.html">Home</a></li>  
                 <li><a href="/myIndia/about.html">About</a></li> 
                 <li><a href="https://blogmedia.testbook.com/blog/wp-content/uploads/2016/08/Famous-Sites-in-India.pdf" target="_blank">Places</a></li>
                 <li> <a href="/myIndia/contact.html">Contact Us</a></li>
@@ -31,12 +31,16 @@
 
     </main>
       <footer>&#169;copyright 2022 deepjyoti das</footer>  
-      <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
-      <script src="text/javascript">
-          $(document).on('click','ul li',function(){
-              $(this).addClass('actives').siblings().removeClass('actives')
-          })
-      </script>
+      <script type="text/javascript">
+        const cl = location.href;
+        const mi = document.querySelectorAll('a');
+        const ml = mi.length
+        for(let i=0;i<ml;i++){
+            if(mi[i].href === cl){
+               mi[i].className === "actives";
+            }
+        }
+       </script>
 
 </body>
 
