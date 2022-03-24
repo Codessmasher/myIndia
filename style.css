@@ -165,6 +165,10 @@ main button{
 .heart{
     color: red;
 }
-.actives{
+.active{
     color: #f80808;
+    background: yellow;
+}
+ul li{
+    display: inline;
 }
