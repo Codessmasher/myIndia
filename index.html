@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>myIndia</title>
         <style>
-        .img{
+        #img-load{
             height: 100vh;
             width: 100%;
             display: flex;
@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 
-<body onload="myFunction()">
+<body onload="loader()">
     <header>
         <nav>
             <div class="logo">
@@ -32,7 +32,7 @@
             </ul>
         </nav>
     </header>
-<div class="img">
+<div id="img-load">
 <img src="https://smallenvelop.com/wp-content/uploads/2014/08/Preloader_2.gif" id="im">
 </div>
     <main>
@@ -52,8 +52,8 @@
             mi[i].className === "actives"
          }
      };
-        function myFunction() {
-var img=document.getElementById('im');
+        function loader() {
+var img=document.getElementById('img-load');
   img.style.display="none";
 }
     </script>
